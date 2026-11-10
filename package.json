@@ -1,0 +1,25 @@
+{
+  "name": "dekanat-plus",
+  "version": "1.0.0",
+  "description": "Деканат+ — концепт личного кабинета студента СПбГУ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --no-warnings server.js",
+    "test": "bash scripts/e2e.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@fontsource/onest": "^5.3.1",
+    "@fontsource/unbounded": "^5.3.0",
+    "bcryptjs": "^3.0.3",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.4",
+    "helmet": "^8.3.0",
+    "qrcode": "^1.5.4"
+  },
+  "engines": {
+    "node": ">=22.5"
+  }
+}

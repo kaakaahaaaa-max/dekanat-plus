@@ -1,0 +1,12 @@
+@font-face{font-family:Onest;src:url(/fonts/onest-cyrillic-400-normal.woff2) format('woff2');font-weight:400}
+@font-face{font-family:Onest;src:url(/fonts/onest-cyrillic-600-normal.woff2) format('woff2');font-weight:600}
+body{margin:0;background:#EEF1EC;font:16px/1.6 Onest,system-ui,sans-serif;color:#17233B}
+main{max-width:680px;margin:24px auto;background:#fff;padding:40px 36px;border-radius:6px}
+h1{font-size:22px;line-height:1.3;margin:0 0 20px}
+.demo{background:#FBF1DA;color:#6B4D0B;padding:8px 12px;border-radius:4px;font-size:14px;margin:0 0 24px}
+.sign{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;margin:32px 0 16px}
+.sign svg{width:120px;height:120px}
+.small{font-size:13px;color:#5B6577;word-break:break-all}
+button{font:inherit;font-weight:600;background:#17233B;color:#fff;border:0;border-radius:10px;padding:12px 18px;cursor:pointer;margin-top:12px}
+@media print{body{background:#fff}main{margin:0}button,.small{display:none}}
+@media (max-width:480px){main{margin:0;border-radius:0;padding:24px 18px}}
